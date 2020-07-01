@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/price-range.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+  <style>
+  .header_top{
+    background-color:#99cc99;
+    color:darkslategray;
+    letter-spacing: 1.5px;
+    font: "Open+Sans";
+    font-size: 12px;
+    padding-top:5px;
+    }
+  }
+
+  .navbar-nav a {
+    background-color: #F7F7F7;
+    font-family: 'montserrat';}
+
+  .navbar-nav li a:hover{
+    color:darkseagreen !important;
+  }
+
+    
+  .carousel-inner img {
+    width: 75%; 
+    margin: auto;
+    max-height:500px;
+    }
+  .carousel-control {
+    width: 40%;  /* change this value to required width */
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+   }
+   .navbar {
+      padding-top: 10px;
+      padding-bottom:10px;
+      border: 0;
+      border-radius: 0;
+      margin-top:0;
+      margin-bottom: 0;
+      font-size: 16px;
+      letter-spacing: 5px}
+  .container{
+    margin-top: 10px;
+  }
+  .bg-4{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #F7F7F7;
+  }
+
+  
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 768px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <header id="header"><!--header-->
+		<div class="header_top"><!--header_top-->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-7">
+						<div class="social-icons pull-right">
+							<p>Sign up and get free shipping! -> </p>
+							</ul>
+						</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-default"><!--header-middle-->
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-4">
+            <div class="logo pull-left">
+              <img src="greenary_brand_logo.jpg" alt="" width="70%">
+            </div>
+		</div>
+	    <div class="col-sm-8">
+            <div class="shop-menu pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="brand.html"><i class="fa fa-star"></i> Brands</a></li>
+                <li><a href="#"><i class="fa fa-user"></i> Order</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="#"><i class="fa fa-star"></i> Login</a></li>
+              </ul>
+						</div>
+					</div>
+				</div>
+      </div>
+    </nav><!--/header-middle-->
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+			  <div class="row">
+				  <div class="col-sm-9">
+					  <div class="navbar-header">
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							  <span class="sr-only">Toggle navigation</span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+						  </button>
+            </div>
+            <div class="mainmenu pull-left">
+						  <ul class="nav navbar-nav">
+							  <li><a href="greenary.html">Home</a></li>
+							  <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Foods
+                  <span class ="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="freshfood.html">Fresh food</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Proccessed food</a></li>
+                  </ul>
+                </li> 
+							  <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cosmetics
+                    <span class ="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Base</a></li>
+                    <li><a href="#">Color</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lifestyle
+                    <span class ="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="">Living & Kitchen</a></li>
+										<li><a href="">Bathroom</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Go</button>
+					</div>
+				</div>
+      </div>
+    </nav>
+<!--ㅇㅕ기부터 브랜드와 회사관련 내용이 들어갈 것임-->
+<body>
+    <div class="container bg-1 text-center">
+        <h3>Our brand, "Greenary"</h3>
+        <table class="table">
+           <tbody>
+               <tr>
+                   <td>"GREENARY" is food & cosmetic brand, which is an integrated price comparison website that helps vegans purchase products more easily and quickly and compare prices. It brings together existing distributed sites to help you choose between price and quality.</td>
+               </tr>
+           </tbody> 
+        </table>
+        <img src="brandg.jpg" class="img-responsive" style="width: 1200px; height: 400px;" alt="Bird">
+    </div>
+    <div class="container bg-2 text-center">
+        <h3>Our corporation, "Palette"</h3>
+        <table class="table">
+           <tbody>
+               <tr>
+                   <td>Palette Corporation is a company that represents the value of the environment around the world and aims to realize the eternal dream of sustainable humanity.</td>
+               </tr>
+           </tbody> 
+        </table>
+        <img src="pal.jpg" class="img-responsive" style="width: 1200px; height: 400px;" alt="Bird">
+    </div>
+    <div class="container bg-3 text-center">
+        <h3> Our teams</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Our team is divided into three main categories. Management team, Finance/Accounting team, Marketing/Design team. </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class = "row">
+            <div class="col-sm-4">
+                <p> Manage the with great business strategy with great people. We are trustful company that our finaceand accounting is absolutely believeable.</p>
+                <img src="manage.jpg" alt="Image" class="img-responsive" style="width:100%">
+        </div>
+            <div class="col-sm-4">
+                <p> Team work and Partnership is the most important part of our company. In design and marketing we prefer to share the opinion each other.  </p>
+                <img src="team.jpg" alt="Image" class="img-responsive" style="width:100%">
+            </div>
+            <div class="col-sm-4">
+                <p> Respect animal, people. We are creating shared relationship with consumer and employees that we have openness to everyone including animals.</p>
+                <img src="respect.jpg" alt="Image" class="img-responsive" style="width:100%">
+            </div>
+        </div>
+
+
+<footer>
+    <div class="footer-top">
+        <div class="container bg-4">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="companyinfo">
+                  <img src="greenary_brand_logo.jpg"  alt="logo" width= "90%">
+              </div>
+            </div>
+            <div class="col-sm-10">
+              <p class="pull-right">Copyright © 2020 E-SHOPPER Inc. All rights reserved. Designed by youngkyung </a></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/price-range.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
